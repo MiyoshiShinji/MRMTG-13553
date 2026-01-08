@@ -1,0 +1,33 @@
+/*    Settings
+=====================================================*/
+:root {
+  /* Contents */
+  --cont-width: 1094px;
+
+  /* Color */
+  --color-main: #666;
+  --color-sub: #fafafa;
+  --color-border: #eee;
+  --color-bg: #f5f5f5;
+  --color-text: #666;
+  --color-hover: #bbb;
+  --color-reverse: #fff;
+
+  /* Text */
+  --font-en: "Roboto";
+  --font-jp: "Noto Sans JP";
+  /* --font-jp: YuGothic, "Yu Gothic Medium", "Yu Gothic"; */
+  --fz-main: 1.5rem;
+  --line-height: 1.75;
+
+  /* Other */
+  --opacity: 0.7;
+  --transition: 0.2s;
+  --bdrs-infinite: calc(1px / 0);
+  --leading-trim: calc((1em - 1lh) / 2);
+
+  --triangle-t: polygon(50% 0, 0 100%, 100% 100%);
+  --triangle-b: polygon(50% 100%, 0 0, 100% 0);
+  --triangle-l: polygon(0 50%, 100% 100%, 100% 0);
+  --triangle-r: polygon(100% 50%, 0 100%, 0 0);
+}
