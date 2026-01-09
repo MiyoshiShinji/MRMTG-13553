@@ -5,20 +5,27 @@
   --cont-width: 1094px;
 
   /* Color */
-  --color-main: #666;
+  --color-main: #fff;
   --color-sub: #fafafa;
   --color-border: #eee;
   --color-bg: #f5f5f5;
-  --color-text: #666;
+  --color-text: #333;
   --color-hover: #bbb;
   --color-reverse: #fff;
 
+  --color-gray: #D9D9D9;
+  --color-light-gray: #F8F8F8;
+
+  --color-orange: #FE7A16;
+  --color-green: #D3DE18;
+  --color-yellow: #F8D90E;
+
   /* Text */
-  --font-en: "Roboto";
-  --font-jp: "Noto Sans JP";
+  --font-en: "Roboto", sans-serif;
+  --font-jp: "Noto Sans JP", sans-serif;
   /* --font-jp: YuGothic, "Yu Gothic Medium", "Yu Gothic"; */
-  --fz-main: 1.5rem;
-  --line-height: 1.75;
+  --fz-main: 1.4rem;
+  --line-height: 1;
 
   /* Other */
   --opacity: 0.7;

@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  --font-sans: YakuHanJPs, var(--font-en), var(--font-jp), "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  --font-serif: YakuHanJPs, var(--font-en), var(--font-jp), Times New Roman, "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho", serif;
-  font-family: var(--font-sans);
+  --font-sans: var(--font-en), var(--font-jp), "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  --font-serif: var(--font-en), var(--font-jp), Times New Roman, "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho", serif;
+  font-family: var(--font-jp);
   color: var(--color-text);
   font-size: var(--fz-main);
   line-height: var(--line-height);
@@ -31,6 +31,23 @@ body {
   html {
     font-size: 2.6vw;
   }
+}
+
+/*    headers
+=====================================================*/
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
 }
 
 /*    a

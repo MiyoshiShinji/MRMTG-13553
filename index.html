@@ -1,6 +1,6 @@
-
 <!doctype html>
 <html lang="ja">
+
 <head>
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->
@@ -39,7 +39,12 @@
   <!-- /canonical -->
 
   <!-- Load Fonts -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s.min.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s.min.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <!-- /Load Fonts -->
 
   <!-- Load css -->
@@ -51,7 +56,8 @@
   <!-- /Load css -->
 
   <!-- jQuery, jQueryUI load from CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
   <!-- /jQuery, jQueryUI read from CDN -->
 </head>
 
@@ -61,22 +67,28 @@
 
 
   <!-- ローディング画面 -->
-  <div class="g_loading js_loading">
+  <!--   <div class="g_loading js_loading">
     <div class="g_loader"></div>
-  </div>
+  </div> -->
 
 
   <!-- header -->
   <header class="header l_wrap">
-    <h1>LOGO</h1>
   </header>
   <!-- /header -->
 
   <!-- contents -->
   <main class="l_wrapper">
+
   </main>
   <!-- /contents -->
-
+  <div
+    style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column;;">
+    <h1>H1 Text</h1>
+    <h2>H2 Text</h2>
+    <h3>H3 Text</h3>
+    <div>This is a test text</div>
+  </div>
   <!-- footer -->
   <footer class="footer l_wrap">
   </footer>
@@ -84,12 +96,12 @@
 
 
   <!-- GDPR -->
-  <div class="g_gdpr l_wrap js_gdpr">
+  <!--   <div class="g_gdpr l_wrap js_gdpr">
     <div class="g_gdpr_wrp l_wrap_inr">
       <p>本サイトはユーザーエクスペリエンスの向上などを目的に、Cookieを使用しています。<br>右記のバナーで「同意する」をクリックする、または本サイトを利用することにより、<br>お客様は弊社の<a href="#" class="g_link">Cookieポリシー</a>に同意したことになります。</p>
       <div class="g_gdpr_btn g_btn js_gdpr_close"><span>同意します</span></div>
     </div>
-  </div>
+  </div> -->
   <!-- /GDPR -->
 
   <!-- Load JavaScript -->
@@ -100,5 +112,6 @@
   <script src="/js/common.js"></script>
   <!-- /Load JavaScript -->
 
-  </body>
+</body>
+
 </html>
