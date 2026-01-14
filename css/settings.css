@@ -4,6 +4,9 @@
   /* Contents */
   --cont-width: 1094px;
 
+  /* Scrollable Visual Width */
+  --main-cont: 390px;
+
   /* Color */
   --color-main: #fff;
   --color-sub: #fafafa;
